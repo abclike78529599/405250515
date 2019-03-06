@@ -1,5 +1,8 @@
 # Hello World
-haha
 
-Welcome to FJE EE.
-i6c. i6c. i6c. 
+function greeter(person){
+    return "Hello," +person;
+}
+let user = "Jane User";
+
+document.body.innerHTML = greeter(user);
